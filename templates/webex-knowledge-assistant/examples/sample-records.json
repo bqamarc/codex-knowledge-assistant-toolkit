@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "synthetic-handbook-001",
+      "source_id": "urn:example:handbook",
+      "title": "Example Service Handbook",
+      "canonical_url": "https://example.invalid/handbook",
+      "source_class": "synthetic",
+      "audience": "public",
+      "answerable": true,
+      "citable": true,
+      "review_state": "approved",
+      "reviewed_at": "2026-01-01T00:00:00Z",
+      "expires_at": "2027-01-01T00:00:00Z",
+      "content": "The example service uses a documented review step before publishing a configuration change."
+    },
+    {
+      "record_id": "synthetic-candidate-001",
+      "source_id": "urn:example:draft",
+      "title": "Unreviewed Draft",
+      "canonical_url": null,
+      "source_class": "candidate",
+      "audience": "public",
+      "answerable": false,
+      "citable": false,
+      "review_state": "pending",
+      "reviewed_at": null,
+      "expires_at": null,
+      "content": "This synthetic draft must not be used in an answer."
+    },
+    {
+      "record_id": "synthetic-audit-001",
+      "source_id": "urn:example:theme",
+      "title": "Synthetic Question Theme",
+      "canonical_url": null,
+      "source_class": "restricted-audit",
+      "audience": "reviewers",
+      "answerable": false,
+      "citable": false,
+      "review_state": "approved-for-analysis",
+      "reviewed_at": "2026-01-01T00:00:00Z",
+      "expires_at": "2026-04-01T00:00:00Z",
+      "content": "A synthetic aggregate indicates that setup questions are common."
+    }
+  ]
+}

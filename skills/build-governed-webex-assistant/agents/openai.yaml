@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Governed Webex Assistant"
+  short_description: "Build policy-aware Webex knowledge assistants"
+  default_prompt: "Use $build-governed-webex-assistant to design and validate a governed Webex knowledge assistant."

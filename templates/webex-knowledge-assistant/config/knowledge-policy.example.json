@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "default_audience": "public",
+  "classes": {
+    "official-current": {
+      "answerable": true,
+      "citable": true,
+      "requires_review": true
+    },
+    "approved": {
+      "answerable": true,
+      "citable": true,
+      "requires_review": true
+    },
+    "restricted-audit": {
+      "answerable": false,
+      "citable": false,
+      "requires_review": true
+    },
+    "candidate": {
+      "answerable": false,
+      "citable": false,
+      "requires_review": true
+    },
+    "synthetic": {
+      "answerable": true,
+      "citable": true,
+      "requires_review": false
+    }
+  },
+  "allowed_citation_schemes": ["https"],
+  "allowed_citation_hosts": ["example.invalid"],
+  "conversation_context": {
+    "max_turns": 4,
+    "max_age_minutes": 30,
+    "may_be_evidence": false
+  }
+}
